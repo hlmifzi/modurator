@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      :root { --primary: hsl(262.1 83.3% 57.8%); }
+      @media (prefers-color-scheme: dark) {
+        :root { --primary: hsl(263.4 70% 50.4%); }
+      }
+      .primary-stroke { stroke: var(--primary); }
+      .primary-fill { fill: var(--primary); }
+    </style>
+  </defs>
+  <rect x="20" y="40" width="160" height="120" rx="8" class="primary-stroke" stroke-width="18" fill="none"/>
+  <line x1="50" y1="70" x2="150" y2="70" class="primary-stroke" stroke-width="16" stroke-linecap="round"/>
+  <line x1="50" y1="110" x2="120" y2="110" class="primary-stroke" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="155" cy="135" r="22" class="primary-fill"/>
+  <path d="M145 132 L152 139 L167 124" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
